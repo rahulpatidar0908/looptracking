@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+   <table name="loop_minitracker" resource="default" engine="innodb" comment="Loop MiniTracker">
+      <column xsi:type="smallint" name="loop_id" padding="7" unsigned="false" nullable="false" identity="true" comment="Loop Id" />
+      <column xsi:type="varchar" name="sku" nullable="false" length="20" comment="SKU" />
+      <column xsi:type="varchar" name="price" nullable="false" length="20" comment="Price" />
+      <column xsi:type="varchar" name="trackingcode" nullable="false" length="255" comment="Tracking Code" />
+      <column xsi:type="varchar" name="trackingmessage" nullable="false" length="255" comment="Tracking Message" />
+      <column xsi:type="datetime" name="created_at" nullable="false" comment="Created At" default="CURRENT_TIMESTAMP" on_update="false" />
+      <column name="updated_at" nullable="true" xsi:type="datetime" default="CURRENT_TIMESTAMP" on_update="true"/>
+      <constraint xsi:type="primary" referenceId="PRIMARY">
+         <column name="loop_id" />
+      </constraint>
+   </table>
+</schema>

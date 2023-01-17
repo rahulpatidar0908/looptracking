@@ -1,0 +1,13 @@
+We would like you to create a simple list to record the estimated vs. tracked time. You start before you are working on the demo, by splitting it into some smaller chunks and estimate the time for each. Once you are done, record the time it really took you to develop.
+
+Estimation 
+1. R&D or understand the task completely(1h)
+2. Create Model and create the seperate table in the database(1h)
+3. Find the event which will work on add to cart and create the observer according to the need and get the product data in observer.(2h)
+4. Save product data into the database(30m)
+5. Create the curl connection to get the request for Tracking code and Tracking message(2h)
+5. We create this into the cron as sometime API is not working and it will increase the time of add to cart (1h)
+6. Create the webapi to save the data into the database and generate the response(2h)
+
+
+To complete the task took 4 hours to do. Sorry I didn't record that as I read the instructions after completion of the task.
