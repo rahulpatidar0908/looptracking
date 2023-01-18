@@ -10,4 +10,4 @@ Estimation
 6. Create the webapi to save the data into the database and generate the response(2h)
 
 
-To complete the task took 4 hours to do. Sorry I didn't record that as I read the instructions after completion of the task.
+It took 4 hours to do the task. Sorry I didn't record that as I read the instructions after completion of the task.
